@@ -1,0 +1,22 @@
+#heading{
+    color: green ;
+}
+
+#parent{
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#child{
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* prepare for advanced topics of css like transform and positioning and pseudo selectors */
